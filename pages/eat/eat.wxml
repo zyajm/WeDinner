@@ -9,8 +9,6 @@
       <button type="" bindtap="btnLogoutClick" formType="submit">注销</button>
     </view>
   </view>
-
-  
   <view class="footer">
     <view class="index-desc">{{supports}}</view>
   </view>

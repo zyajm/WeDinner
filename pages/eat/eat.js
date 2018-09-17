@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    supports: '技术支持：上海福耀客车信息部 ',
+    supports: '技术支持：上海福耀客车信息部',
     userid: "",
     btnScanText: '扫一扫',
     QRCode: "",
