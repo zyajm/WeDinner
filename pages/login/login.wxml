@@ -1,0 +1,27 @@
+<view class="container">
+  <form class="page-body" bindsubmit='btnLoginClick'>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <image class="nameImage" src="../images/name.png"></image>
+        <view class="weui-cell__hd">
+          <view class="weui-label">帐号</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" type="text" placeholder="请输入帐号" bindinput-del="UserIDInput" name="userid"></input>
+        </view>
+      </view>
+      <view class="weui-cell weui-cell_input">
+        <image class="nameImage" src="../images/key.png"></image>
+        <view class="weui-cell__hd">
+          <view class="weui-label">密码</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" type="text" password="true" placeholder="请输入密码" bindinput-del="PasswordInput" name="password"></input>
+        </view>
+      </view>
+    </view>
+    <view class="btn-area">
+      <button type="primary" bindtap-del="btnLoginClick" formType="submit">登录</button>
+    </view>
+  </form>
+</view>

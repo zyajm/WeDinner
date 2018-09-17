@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="page-body">
+    <view class="btn-area" id="buttonContainer">
+      <button type="primary" bindtap="ScanQRCode" disabled="{{buttonDisabled}}" loading="{{loading}}">{{btnScanText}}</button>
+    </view>
+  </view>
+  <view class="page-body">
+    <view class="btn-area" id="buttonContainer">
+      <button type="" bindtap="btnLogoutClick" formType="submit">注销</button>
+    </view>
+  </view>
+
+  
+  <view class="footer">
+    <view class="index-desc">{{supports}}</view>
+  </view>
+</view>

@@ -1,0 +1,22 @@
+<view class="container">
+  <view class='radio-view'>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio" wx:for="{{items}}">
+        <radio value="{{item.value}}" checked="{{item.checked}}" />{{item.name}}
+      </label>
+    </radio-group>
+  </view>
+  <view class="page-body">
+    <view class="btn-area" id="buttonContainer">
+      <button type="primary" bindtap="ScanQRCode" disabled="{{buttonDisabled}}" loading="{{loading}}">{{btnScanText}}</button>
+    </view>
+  </view>
+  <view class="page-body">
+    <view class="btn-area" id="buttonContainer">
+      <button type="" bindtap="btnLogoutClick" formType="submit">注销</button>
+    </view>
+  </view>
+  <view class="footer">
+    <view class="index-desc">{{supports}}</view>
+  </view>
+</view>
